@@ -7,7 +7,9 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import org.springframework.core.io.FileSystemResource;
+import org.springframework.web.context.support.XmlWebApplicationContext;
 
 
 public class DrawingApp {
@@ -26,6 +28,8 @@ public class DrawingApp {
 //		Triangle triangle = (Triangle) context.getBean("triangle");
 //		triangle.draw();
 		Square sq = (Square) context.getBean("square");
+//		XmlWebApplicationContext xml;
+		
 		Square sq1 = (Square) context.getBean("square");
 		
 		sq.draw();
