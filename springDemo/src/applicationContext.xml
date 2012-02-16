@@ -23,11 +23,15 @@
      <property name="x" value="3"></property>
      <property name="y" value="3"></property>
   </bean>
-   <bean id="square" class="org.javabrains.shape.Square">
+   <bean id="squareParent" class="org.javabrains.shape.Square">
      <property name="pointA" ref="pointA"></property>
       <property name="pointB" ref="pointB"></property>
+      
+     
+  </bean>
+   <bean id="square" class="org.javabrains.shape.Square" parent="squareParent">
+
        <property name="pointC" ref="pointC"></property>
      
   </bean>
- 
 </beans>
