@@ -24,7 +24,7 @@
      <property name="y" value="3"></property>
   </bean>
   <!-- autowire can be set as byName ,or byType -->
-   <bean id="square" class="org.javabrains.shape.Square" autowire="byType">
+   <bean id="square" class="org.javabrains.shape.Square" autowire="byName">
    </bean>
  
 </beans>
