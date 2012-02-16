@@ -24,10 +24,12 @@
      <property name="y" value="3"></property>
   </bean>
    <bean id="square" class="org.javabrains.shape.Square">
-     <property name="pointA" ref="pointA"></property>
-      <property name="pointB" ref="pointB"></property>
-       <property name="pointC" ref="pointC"></property>
-     
+     <property name="points">
+     	<list>
+     	    <ref bean="pointA"/>
+     	    <idref bean="pointB"/>
+     	</list>
+     </property>
   </bean>
  
 </beans>

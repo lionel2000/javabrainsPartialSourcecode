@@ -1,35 +1,22 @@
 package org.javabrains.shape;
 
+import java.util.List;
+
 public class Square {
-	private Point pointA;
-	private Point pointB;
-	private Point pointC;
-	
-	public Point getPointA() {
-		return pointA;
-	}
-
-	public void setPointA(Point pointA) {
-		this.pointA = pointA;
-	}
-
-	public Point getPointB() {
-		return pointB;
-	}
-
-	public void setPointB(Point pointB) {
-		this.pointB = pointB;
-	}
-
-	public Point getPointC() {
-		return pointC;
-	}
-
-	public void setPointC(Point pointC) {
-		this.pointC = pointC;
-	}
-
+    
+	private List<Point> points;
+     
 	public void draw(){
-		System.out.println("x:" + pointA +"y:" + pointB +"z:" + pointC );
+	     for(Point p:points){
+	    	 System.out.println(p);
+	     }
+	}
+
+	public List<Point> getPoints() {
+		return points;
+	}
+
+	public void setPoints(List<Point> points) {
+		this.points = points;
 	}
 }
