@@ -26,7 +26,10 @@ public class DrawingApp {
 //		Triangle triangle = (Triangle) context.getBean("triangle");
 //		triangle.draw();
 		Square sq = (Square) context.getBean("square");
+		Square sq1 = (Square) context.getBean("square");
+		
 		sq.draw();
+		log.info(sq1 == sq);
         
 	}
 

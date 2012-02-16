@@ -23,7 +23,7 @@
      <property name="x" value="3"></property>
      <property name="y" value="3"></property>
   </bean>
-   <bean id="square" class="org.javabrains.shape.Square">
+   <bean id="square" class="org.javabrains.shape.Square" scope="prototype">
      <property name="pointA" ref="pointA"></property>
       <property name="pointB" ref="pointB"></property>
        <property name="pointC" ref="pointC"></property>
