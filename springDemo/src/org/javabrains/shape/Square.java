@@ -6,6 +6,7 @@ public class Square {
 	private Point pointC;
 	
 	public Point getPointA() {
+		
 		return pointA;
 	}
 
