@@ -11,19 +11,23 @@
    <constructor-arg index="1" value="11" ></constructor-arg>
     <constructor-arg index="0" value="12" ></constructor-arg>     
   </bean>
+  
   <bean id="pointA" class="org.javabrains.shape.Point">
      <property name="x" value="1"></property>
      <property name="y" value="1"></property>
   </bean>
+  
    <bean id="pointB" class="org.javabrains.shape.Point">
      <property name="x" value="2"></property>
      <property name="y" value="2"></property>
   </bean>
+  
    <bean id="pointC" class="org.javabrains.shape.Point">
      <property name="x" value="3"></property>
      <property name="y" value="3"></property>
   </bean>
   <!-- autowire can be set as byName ,or byType -->
+  
    <bean id="square" class="org.javabrains.shape.Square" autowire="byName">
    </bean>
  
