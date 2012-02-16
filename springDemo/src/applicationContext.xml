@@ -29,5 +29,10 @@
        <property name="pointC" ref="pointC"></property>
      
   </bean>
+  <bean id="circle" class="org.javabrains.shape.Circle">
+   
+  </bean>
+  
+  <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
  
 </beans>
