@@ -42,5 +42,14 @@
 	<bean class="org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver"/> -->
     <context:annotation-config ></context:annotation-config>
     <context:component-scan base-package="org.javabrains.shape"></context:component-scan>
+    
+    <bean name="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename">
+           <value>
+               messsageSource
+           </value>
+        </property>
+    </bean>
+    
 	
 </beans>
