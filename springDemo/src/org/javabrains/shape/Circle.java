@@ -1,5 +1,9 @@
 package org.javabrains.shape;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.annotation.Resource;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
@@ -7,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Required;
 
-public class Circle implements InitializingBean,DisposableBean {
+public class Circle {
 	public static Logger log = Logger.getLogger(Circle.class);
 	private Point center;
 
@@ -15,26 +19,25 @@ public class Circle implements InitializingBean,DisposableBean {
 		return center;
 	}
 	
-    @Required
+  /*  @Required
     @Autowired
-    @Qualifier("circleRelated")    
+    @Qualifier("circleRelated") */   
+	
+	@Resource(name="pointC")
 	public void setCenter(Point center) {
 		this.center = center;
 	}
 	
 	public void draw(){
-		log.info("Circle draw method is called and the center is " + center.getX());
+		log.info("Circle draw method is called and the center is x:" + center.getX()+" y:" +center.getX());
 	}
-
-	@Override
-	public void destroy() throws Exception {
-	    log.error("the bean has been destoryed");
+    @PostConstruct
+	public void init(){
+		log.info(" init method is called");
 	}
-
-	@Override
-	public void afterPropertiesSet() throws Exception {
-
-		log.error("aterProperties is set .I am show in red right?");
+	@PreDestroy
+	public void detroy(){
+		log.info("destroy method is called");
 	}
 
 }
