@@ -22,9 +22,10 @@ public class DrawingApp {
 //		Triangle triangle = (Triangle) context.getBean("triangle");
 //		triangle.draw();
 		context.registerShutdownHook();
-		Circle cl = (Circle) context.getBean("circle");
-		cl.draw();
-        
+//		Circle cl = (Circle) context.getBean("circle");
+//		cl.draw();
+		String lionel = context.getMessage("lionel", null, "defaultSee", null);
+        log.info(lionel);
 	}
 
 }
