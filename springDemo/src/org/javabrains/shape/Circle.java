@@ -6,14 +6,17 @@ import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
 
 @Component
-public class Circle {
+public class Circle  implements ApplicationEventPublisherAware {
 	public static Logger log = Logger.getLogger(Circle.class);
 	private Point center;
+	private ApplicationEventPublisher publisher;
     MessageSource messageSource;
 	public MessageSource getMessageSource() {
 		return messageSource;
@@ -40,6 +43,8 @@ public class Circle {
 	public void draw(){
 		log.info(messageSource.getMessage("draw.circle", null,null));
 		log.info(messageSource.getMessage("draw.circle.pattern", new Object[]{center.getX(),center.getY()},null));
+		DrawEvent de = new DrawEvent(this);
+		publisher.publishEvent(de);		
 	}
 	
     @PostConstruct
@@ -49,6 +54,11 @@ public class Circle {
 	@PreDestroy
 	public void detroy(){
 		log.info("destroy method is called");
+	}
+
+	@Override
+	public void setApplicationEventPublisher(ApplicationEventPublisher publisher) {
+	    this.publisher = publisher;		
 	}
 
 }

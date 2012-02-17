@@ -56,4 +56,6 @@
 		</property>
 	</bean>
 	 -->
+	 <context:component-scan base-package="org.javabrains.study"></context:component-scan>
+	 
 </beans>
