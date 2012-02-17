@@ -1,0 +1,169 @@
+[2012-02-16 14:13:43,742] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:13:43,800] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 14:13:43 CST 2012]; root of context hierarchy
+[2012-02-16 14:13:43,866] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:13:44,167] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14520eb: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:13:58,656] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:13:58,706] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:13:58 CST 2012]; root of context hierarchy
+[2012-02-16 14:13:58,776] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:13:58,946] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16c79d7: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:17:52,614] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:17:52,674] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bfea1d: startup date [Thu Feb 16 14:17:52 CST 2012]; root of context hierarchy
+[2012-02-16 14:17:52,744] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:17:52,934] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:17:53,024] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:18:39,194] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:18:39,244] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 14:18:39 CST 2012]; root of context hierarchy
+[2012-02-16 14:18:39,314] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:18:39,484] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14520eb: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:19:03,100] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:19:03,150] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:19:03 CST 2012]; root of context hierarchy
+[2012-02-16 14:19:03,220] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:19:03,410] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b33d0a: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:19:03,510] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b33d0a: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:24:49,483] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:24:49,550] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 14:24:49 CST 2012]; root of context hierarchy
+[2012-02-16 14:24:49,636] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:24:49,882] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c9217: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:25:27,753] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:25:27,817] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@704baa: startup date [Thu Feb 16 14:25:27 CST 2012]; root of context hierarchy
+[2012-02-16 14:25:27,885] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:25:28,095] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c9217: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:25:34,077] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:25:34,140] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b4fad5: startup date [Thu Feb 16 14:25:34 CST 2012]; root of context hierarchy
+[2012-02-16 14:25:34,216] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:25:34,414] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c9217: defining beans [triangle,pointA,pointB,pointCd,square]; root of factory hierarchy
+[2012-02-16 14:25:40,806] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:25:40,867] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 14:25:40 CST 2012]; root of context hierarchy
+[2012-02-16 14:25:40,949] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:25:41,164] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@154864a: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:27:55,867] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:27:55,931] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:27:55 CST 2012]; root of context hierarchy
+[2012-02-16 14:27:56,007] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:27:56,210] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14520eb: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:27:56,306] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14520eb: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:51:59,998] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:52:00,051] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:52:00 CST 2012]; root of context hierarchy
+[2012-02-16 14:52:00,118] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:52:00,289] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@acb158: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:52:00,376] main org.javabrains.study.DrawingApp INFO  - true
+[2012-02-16 14:52:11,788] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:52:11,841] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:52:11 CST 2012]; root of context hierarchy
+[2012-02-16 14:52:11,910] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:52:12,075] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:52:12,159] main org.javabrains.study.DrawingApp INFO  - true
+[2012-02-16 14:52:38,436] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 14:52:38,482] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 14:52:38 CST 2012]; root of context hierarchy
+[2012-02-16 14:52:38,544] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 14:52:38,699] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 14:52:38,778] main org.javabrains.study.DrawingApp INFO  - false
+[2012-02-16 16:29:23,871] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 16:29:23,931] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2a4983: startup date [Thu Feb 16 16:29:23 CST 2012]; root of context hierarchy
+[2012-02-16 16:29:23,991] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 16:29:24,151] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17431b9: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 16:29:24,231] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17431b9: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 16:29:57,926] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 16:29:57,966] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 16:29:57 CST 2012]; root of context hierarchy
+[2012-02-16 16:29:58,026] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 16:29:58,196] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@154864a: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 16:29:58,276] main org.javabrains.shape.Square INFO  - Square setBeanName is called and the beanName is square
+[2012-02-16 16:29:58,276] main org.javabrains.shape.Square INFO  - Square setApplicationContext is calledorg.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 16:29:57 CST 2012]; root of context hierarchy
+[2012-02-16 16:30:42,571] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 16:30:42,627] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@139eeda: startup date [Thu Feb 16 16:30:42 CST 2012]; root of context hierarchy
+[2012-02-16 16:30:42,709] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 16:30:42,869] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c9217: defining beans [triangle,pointA,pointB,pointC,square1]; root of factory hierarchy
+[2012-02-16 16:30:42,949] main org.javabrains.shape.Square INFO  - Square setBeanName is called and the beanName is square1
+[2012-02-16 16:30:42,949] main org.javabrains.shape.Square INFO  - Square setApplicationContext is calledorg.springframework.context.support.ClassPathXmlApplicationContext@139eeda: startup date [Thu Feb 16 16:30:42 CST 2012]; root of context hierarchy
+[2012-02-16 21:45:07,074] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 21:45:07,124] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b4fad5: startup date [Thu Feb 16 21:45:07 CST 2012]; root of context hierarchy
+[2012-02-16 21:45:07,184] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 21:45:07,444] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14520eb: defining beans [triangle,pointA,pointB,pointC,squareParent,square]; root of factory hierarchy
+[2012-02-16 21:45:28,999] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 21:45:29,049] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c68c3: startup date [Thu Feb 16 21:45:29 CST 2012]; root of context hierarchy
+[2012-02-16 21:45:29,109] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 21:45:29,259] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,squareParent,square]; root of factory hierarchy
+[2012-02-16 22:00:19,012] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:00:19,052] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bfea1d: startup date [Thu Feb 16 22:00:19 CST 2012]; root of context hierarchy
+[2012-02-16 22:00:19,112] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:00:19,262] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:00:19,332] main org.javabrains.shape.Square INFO  - all property has been setPoint [x=3, y=3]
+[2012-02-16 22:00:19,342] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@bfea1d: startup date [Thu Feb 16 22:00:19 CST 2012]; root of context hierarchy
+[2012-02-16 22:00:19,342] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:03:50,487] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:03:50,533] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 22:03:50 CST 2012]; root of context hierarchy
+[2012-02-16 22:03:50,597] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:03:50,764] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9b42e6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:03:50,852] main org.javabrains.shape.Square INFO  - all property has been setPoint [x=3, y=3]
+[2012-02-16 22:03:50,857] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@77a7f9: startup date [Thu Feb 16 22:03:50 CST 2012]; root of context hierarchy
+[2012-02-16 22:03:50,858] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9b42e6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:03:50,858] Thread-0 org.javabrains.shape.Square INFO  - Bean destroy message is called
+[2012-02-16 22:08:49,100] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:08:49,140] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c68c3: startup date [Thu Feb 16 22:08:49 CST 2012]; root of context hierarchy
+[2012-02-16 22:08:49,200] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:08:49,360] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:08:49,440] main org.javabrains.shape.Square INFO  - all property has been setPoint [x=3, y=3]
+[2012-02-16 22:08:49,440] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@c68c3: startup date [Thu Feb 16 22:08:49 CST 2012]; root of context hierarchy
+[2012-02-16 22:08:49,440] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1af33d6: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:08:49,440] Thread-0 org.javabrains.shape.Square INFO  - Bean destroy message is called
+[2012-02-16 22:09:26,262] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:09:26,302] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:09:26 CST 2012]; root of context hierarchy
+[2012-02-16 22:09:26,362] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:09:26,512] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:09:26,582] main org.javabrains.shape.Square INFO  - init-method is called and the property is set too Point [x=3, y=3]
+[2012-02-16 22:09:26,592] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:09:26 CST 2012]; root of context hierarchy
+[2012-02-16 22:09:26,592] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:09:26,592] Thread-0 org.javabrains.shape.Square INFO  - Bean destroy message is called
+[2012-02-16 22:16:23,418] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:16:23,461] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:16:23 CST 2012]; root of context hierarchy
+[2012-02-16 22:16:23,526] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:16:23,693] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@acb158: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:16:23,781] main org.javabrains.shape.Square INFO  - init-method is called and the property is set too Point [x=3, y=3]
+[2012-02-16 22:16:23,784] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:16:23 CST 2012]; root of context hierarchy
+[2012-02-16 22:16:23,784] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@acb158: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:17:03,686] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 22:17:03,733] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:17:03 CST 2012]; root of context hierarchy
+[2012-02-16 22:17:03,800] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 22:17:03,970] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:17:04,050] main org.javabrains.shape.Square INFO  - init-method is called and the property is set too Point [x=3, y=3]
+[2012-02-16 22:17:04,053] Thread-0 org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 22:17:03 CST 2012]; root of context hierarchy
+[2012-02-16 22:17:04,054] Thread-0 org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1742700: defining beans [triangle,pointA,pointB,pointC,square]; root of factory hierarchy
+[2012-02-16 22:17:04,054] Thread-0 org.javabrains.shape.Square INFO  - Bean destroy message is called
+[2012-02-16 23:57:22,355] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 23:57:22,405] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a33d48: startup date [Thu Feb 16 23:57:22 CST 2012]; root of context hierarchy
+[2012-02-16 23:57:22,455] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 23:57:22,655] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@acb158: defining beans [triangle,pointA,pointB,pointC,square,org.javabrains.bean.post.MyBeanPostProcessor#0]; root of factory hierarchy
+[2012-02-16 23:57:22,695] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name istriangle
+[2012-02-16 23:57:22,695] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name istriangle
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointA
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointA
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointB
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointB
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointC
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointC
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name issquare
+[2012-02-16 23:57:22,705] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name issquare
+[2012-02-16 23:58:08,715] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 23:58:08,761] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2a4983: startup date [Thu Feb 16 23:58:08 CST 2012]; root of context hierarchy
+[2012-02-16 23:58:08,839] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 23:58:09,042] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9b42e6: defining beans [pointA,pointB,pointC,square,org.javabrains.bean.post.MyBeanPostProcessor#0]; root of factory hierarchy
+[2012-02-16 23:58:09,058] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointA
+[2012-02-16 23:58:09,058] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointA
+[2012-02-16 23:58:09,058] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointB
+[2012-02-16 23:58:09,058] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointB
+[2012-02-16 23:58:09,058] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointC
+[2012-02-16 23:58:09,073] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointC
+[2012-02-16 23:58:09,073] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name issquare
+[2012-02-16 23:58:09,073] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name issquare
+[2012-02-16 23:58:32,196] main org.javabrains.study.DrawingApp INFO  - initiall the context
+[2012-02-16 23:58:32,256] main org.springframework.context.support.ClassPathXmlApplicationContext INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b4fad5: startup date [Thu Feb 16 23:58:32 CST 2012]; root of context hierarchy
+[2012-02-16 23:58:32,316] main org.springframework.beans.factory.xml.XmlBeanDefinitionReader INFO  - Loading XML bean definitions from class path resource [applicationContext.xml]
+[2012-02-16 23:58:32,556] main org.springframework.beans.factory.support.DefaultListableBeanFactory INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9b42e6: defining beans [pointA,pointB,pointC,square,triangle,org.javabrains.bean.post.MyBeanPostProcessor#0]; root of factory hierarchy
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointA
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointA
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointB
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointB
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name ispointC
+[2012-02-16 23:58:32,586] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name ispointC
+[2012-02-16 23:58:32,596] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name issquare
+[2012-02-16 23:58:32,596] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name issquare
+[2012-02-16 23:58:32,626] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  before postProcessor is called and the bean name istriangle
+[2012-02-16 23:58:32,626] main org.javabrains.bean.post.MyBeanPostProcessor INFO  -  after postProcessor is called and the bean name istriangle

@@ -12,6 +12,5 @@ public class MyEventListner implements ApplicationListener {
 	@Override
 	public void onApplicationEvent(ApplicationEvent event) {
 		log.error("*******" + event.toString());
-	}
-
+	}	
 }
