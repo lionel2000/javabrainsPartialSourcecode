@@ -5,11 +5,8 @@ import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Required;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
 
@@ -17,6 +14,15 @@ import org.springframework.stereotype.Component;
 public class Circle {
 	public static Logger log = Logger.getLogger(Circle.class);
 	private Point center;
+    MessageSource messageSource;
+	public MessageSource getMessageSource() {
+		return messageSource;
+	}
+	
+	@Autowired
+	public void setMessageSource(MessageSource messageSource) {
+		this.messageSource = messageSource;
+	}
 
 	public Point getCenter() {
 		return center;
@@ -32,7 +38,8 @@ public class Circle {
 	}
 	
 	public void draw(){
-		log.info("Circle draw method is called and the center is x:" + center.getX()+" y:" +center.getX());
+		log.info(messageSource.getMessage("draw.circle", null,null));
+		log.info(messageSource.getMessage("draw.circle.pattern", new Object[]{center.getX(),center.getY()},null));
 	}
 	
     @PostConstruct
