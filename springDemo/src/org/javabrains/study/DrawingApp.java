@@ -2,7 +2,7 @@ package org.javabrains.study;
 
 import org.apache.log4j.Logger;
 import org.javabrains.shape.Circle;
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
@@ -18,9 +18,10 @@ public class DrawingApp {
 //		BeanFactory factory = new XmlBeanFactory(new FileSystemResource("applicationContext.xml"));
 //		Triangle triangle = (Triangle)factory.getBean("triangle");
 		log.info("initiall the context");
-		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 //		Triangle triangle = (Triangle) context.getBean("triangle");
 //		triangle.draw();
+		context.registerShutdownHook();
 		Circle cl = (Circle) context.getBean("circle");
 		cl.draw();
         
