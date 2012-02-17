@@ -32,9 +32,7 @@
 		<property name="pointC" ref="pointC"></property>
 
 	</bean>
-	<bean id="circle" class="org.javabrains.shape.Circle">
 
-	</bean>
 
 <!-- 	<bean
 		class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
@@ -43,5 +41,6 @@
 	
 	<bean class="org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver"/> -->
     <context:annotation-config ></context:annotation-config>
+    <context:component-scan base-package="org.javabrains.shape"></context:component-scan>
 	
 </beans>

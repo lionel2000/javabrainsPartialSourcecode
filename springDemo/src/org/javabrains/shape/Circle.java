@@ -10,7 +10,10 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Required;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class Circle {
 	public static Logger log = Logger.getLogger(Circle.class);
 	private Point center;
@@ -31,6 +34,7 @@ public class Circle {
 	public void draw(){
 		log.info("Circle draw method is called and the center is x:" + center.getX()+" y:" +center.getX());
 	}
+	
     @PostConstruct
 	public void init(){
 		log.info(" init method is called");
